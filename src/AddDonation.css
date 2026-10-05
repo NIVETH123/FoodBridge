@@ -1,0 +1,105 @@
+
+.donation-page {
+  min-height: 100vh;
+  background: #f1faf5;
+  font-family: Arial, sans-serif;
+  color: #07594e;
+}
+
+.donation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 18px 5%;
+  box-shadow: 0 2px 8px #0000000d;
+}
+
+.donation-header h2 {
+  margin: 0;
+  color: #08745a;
+}
+
+.donation-header h2 span {
+  color: #36bd76;
+}
+
+.donation-header button {
+  background: #218e68;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 11px 17px;
+  cursor: pointer;
+}
+
+.donation-container {
+  max-width: 650px;
+  margin: 35px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px #0000000d;
+}
+
+.donation-container h1 {
+  margin: 0 0 8px;
+  color: #08644f;
+}
+
+.donation-container > p {
+  color: #68756e;
+  margin-bottom: 25px;
+}
+
+.donation-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.donation-container label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.donation-container input,
+.donation-container select,
+.donation-container textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d5e3da;
+  border-radius: 7px;
+  font-family: inherit;
+  font-size: 14px;
+  outline-color: #218e68;
+}
+
+.donation-container textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.donation-submit {
+  margin-top: 18px;
+  padding: 14px;
+  background: #218e68;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.donation-submit:hover {
+  background: #126b4b;
+}
+
+@media (max-width: 700px) {
+  .donation-container {
+    margin: 20px 12px;
+    padding: 22px;
+  }
+}

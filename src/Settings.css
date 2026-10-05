@@ -1,0 +1,144 @@
+
+.settings-page {
+  min-height: 100vh;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #f4f8f6;
+  color: #123b32;
+  font-family: Arial, sans-serif;
+}
+
+.settings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 28px;
+  margin-bottom: 26px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #064e3b, #0d8b6d);
+  color: white;
+}
+
+.settings-tag {
+  color: #b7f5df;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+}
+
+.settings-header h1 {
+  margin: 12px 0;
+  font-size: 30px;
+}
+
+.settings-header p {
+  margin: 0;
+  color: #d3f3e7;
+}
+
+.settings-header button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: #08785e;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.settings-card {
+  max-width: 760px;
+  padding: 28px;
+  border: 1px solid #dfede5;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 5px 20px #123b3208;
+}
+
+.settings-profile-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 14px;
+  background: #e1f6eb;
+  font-size: 28px;
+}
+
+.settings-profile-heading h2,
+.settings-card h2 {
+  margin-bottom: 8px;
+  font-size: 21px;
+}
+
+.settings-card > p {
+  color: #71877f;
+  font-size: 13px;
+}
+
+.settings-info-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e9f0ec;
+  font-size: 14px;
+}
+
+.settings-info-row:last-child {
+  border-bottom: none;
+}
+
+.settings-info-row span {
+  color: #71877f;
+}
+
+.settings-info-row strong {
+  color: #08785e;
+  text-align: right;
+}
+
+.settings-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  max-width: 760px;
+  margin-top: 22px;
+  padding: 22px;
+  border-radius: 14px;
+  background: #e7f7ee;
+}
+
+.settings-note > span {
+  font-size: 28px;
+}
+
+.settings-note h3 {
+  margin: 0 0 8px;
+  color: #08785e;
+}
+
+.settings-note p {
+  margin: 0;
+  color: #527266;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .settings-page {
+    padding: 16px;
+  }
+
+  .settings-header {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 22px;
+  }
+
+  .settings-card {
+    padding: 20px;
+  }
+}
